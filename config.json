@@ -1,0 +1,12 @@
+{
+  "_note": "Auto-PyEnv configuration. Edit this file to set your preferences. The skill reads from this file at startup and skips all questions.",
+  "proxy": "",
+  "hf_mirror": "",
+  "pypi_mirror": "",
+  "package_manager": "",
+  "python_version": "",
+  "weights_dir": "./models",
+  "data_dir": "./data",
+  "hf_token": "",
+  "clone_depth": 1
+}
