@@ -1,3 +1,5 @@
+[**English Version**](README.md) | [英文版](README.md)
+
 # AutoPyEnvironment
 
 **自动 Python 环境配置** — 一个 Claude Code 技能，输入 GitHub 项目链接即可自动完成 Python 开发环境配置。

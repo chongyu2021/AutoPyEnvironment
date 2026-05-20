@@ -1,3 +1,5 @@
+[**Read in Chinese**](README.zh.md) | [中文版](README.zh.md)
+
 # AutoPyEnvironment
 
 **Auto Python Environment Setup** — a Claude Code skill that automatically configures a complete Python development environment for any GitHub project.
