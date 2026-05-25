@@ -1,5 +1,6 @@
 {
   "_note": "Auto-PyEnv configuration. Edit this file to set your preferences. The skill reads from this file at startup and skips all questions.",
+  "repo_dir": "",
   "proxy": "",
   "hf_mirror": "",
   "pypi_mirror": "",

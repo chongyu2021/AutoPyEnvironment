@@ -667,6 +667,7 @@ def _get_dir_size_mb(path: Path) -> float:
 # ──────────────────────────────────────────────
 
 DEFAULT_CONFIG = {
+    "repo_dir": "",
     "proxy": "",
     "hf_mirror": "",
     "pypi_mirror": "",

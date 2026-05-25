@@ -112,6 +112,7 @@ The skill reads from `config.json` at startup and skips all interactive prompts 
 
 ```json
 {
+  "repo_dir": "",         // Parent dir for cloned repos (empty = ~/projects/)
   "proxy": "",            // HTTP/HTTPS proxy (e.g. "http://127.0.0.1:7890")
   "hf_mirror": "",        // HuggingFace mirror (e.g. "https://hf-mirror.com")
   "pypi_mirror": "",      // PyPI mirror (e.g. "https://pypi.tuna.tsinghua.edu.cn/simple")

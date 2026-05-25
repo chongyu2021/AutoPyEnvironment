@@ -60,8 +60,10 @@ git ls-remote "https://github.com/$repoFullName" HEAD
 Set derived variables:
 ```
 repoName = second segment of repoFullName
-repoDir  = homeDir/sep/projects/sep/repoName
+defaultDir = homeDir + sep + "projects" + sep + repoName
+repoDir   = config.repo_dir or defaultDir
 ```
+If `repo_dir` is set in config, use it directly (it's the full parent path, repo name will be appended). Otherwise default to `$HOME/projects/repoName`.
 
 ---
 
@@ -85,6 +87,7 @@ Config values (edit `config.json` to change defaults):
 
 | Key | Purpose | Default |
 |-----|---------|---------|
+| `repo_dir` | Parent directory for cloned repos | `""` (auto: `~/projects/`) |
 | `proxy` | Proxy/VPN address | `""` (none) |
 | `hf_mirror` | HuggingFace mirror URL | `""` (official) |
 | `pypi_mirror` | PyPI mirror URL | `""` (official) |
