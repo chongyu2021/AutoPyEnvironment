@@ -50,7 +50,7 @@
 ### 方式一：克隆本仓库（推荐）
 
 ```bash
-git clone https://github.com/your-username/AutoPyEnvironment.git
+git clone https://github.com/chongyu2021/AutoPyEnvironment.git
 cd AutoPyEnvironment
 ```
 
