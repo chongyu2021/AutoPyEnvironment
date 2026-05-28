@@ -50,7 +50,7 @@ User: /auto-pyenv https://github.com/user/repo
 ### Option 1: Clone this repo (recommended)
 
 ```bash
-git clone https://github.com/your-username/AutoPyEnvironment.git
+git clone https://github.com/chongyu2021/AutoPyEnvironment.git
 cd AutoPyEnvironment
 ```
 
