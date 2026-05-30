@@ -28,7 +28,7 @@ User: /auto-pyenv https://github.com/user/repo
 │  4. Clone repository                        │
 │  5. Analyze project structure               │
 │  6. Create environment (conda/venv)         │
-│  7. Install deps with network fallback       │
+│  7. Install deps with network fallback      │
 │  8. Download HuggingFace weights            │
 │  9. Run smoke test & report                 │
 └─────────────────────────────────────────────┘
